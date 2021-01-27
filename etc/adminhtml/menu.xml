@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mgrid_Jobs::careers" title="Careers" module="Mgrid_Jobs" sortOrder="51" resource="Mgrid_Jobs::careers"/>
+        <add id="Mgrid_Jobs::jobs" title="Jobs" module="Mgrid_Jobs" sortOrder="10" action="careers/jobs" resource="Mgrid_Jobs::jobs" parent="Mgrid_Jobs::careers"/>
+    </menu>
+</config>
